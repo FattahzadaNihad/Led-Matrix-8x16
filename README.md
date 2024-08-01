@@ -23,11 +23,7 @@ Connect the LED matrix to the Arduino as follows:
 
 1. Clone this repository to your local machine using:
 
-   sh
-
-   Copy code
-
-   git clone https://github.com/your-username/Led-Matrix-8x16.git
+    https://github.com/your-username/Led-Matrix-8x16.git
 
 1. Open the Led-Matrix-8x16.ino file in the Arduino IDE.
 1. Connect your Arduino Uno to your computer.
@@ -40,10 +36,6 @@ Connect the LED matrix to the Arduino as follows:
 
 Before using the LED matrix, you need to initialize it with the led\_matrix\_init function, specifying the I2C pins:
 
-cpp
-
-Copy code
-
 led\_matrix\_init(3, 4);
 
 **Displaying Characters and Strings**
@@ -52,10 +44,6 @@ led\_matrix\_init(3, 4);
 - To display a string, use the str\_array and write\_str functions.
 
 Example:
-
-cpp
-
-Copy code
 
 unsigned char value[256];
 
@@ -69,9 +57,6 @@ write\_str(value, &k);
 
 You can display a counting sequence on the LED matrix using the Counter function:
 
-cpp
-
-Copy code
 
 unsigned char char\_tuple[256];
 
@@ -82,10 +67,6 @@ Counter(10, char\_tuple, 1000, false); // Count up to 10
 **Clear Display**
 
 To clear the display, use the clear8x16 function:
-
-cpp
-
-Copy code
 
 clear8x16();
 
