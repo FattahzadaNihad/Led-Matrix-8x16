@@ -1,4 +1,5 @@
 #Led-Matrix-8x16
+
 #This project demonstrates how to control an 8x16 LED matrix using an Arduino Uno. The LED matrix displays characters, strings, and a counter using I2C communication.
 
 Hardware Requirements
