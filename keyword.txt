@@ -1,0 +1,30 @@
+###########################################
+# Syntax Coloring Map For LED Matrix I2C
+###########################################
+
+###########################################
+# Datatypes (KEYWORD1)
+###########################################
+
+led_matrix_init	KEYWORD1
+
+###########################################
+# Methods and Functions (KEYWORD2)
+###########################################
+
+IIC_start	KEYWORD2
+IIC_send	KEYWORD2
+IIC_end	KEYWORD2
+set_address	KEYWORD2
+set_brightness	KEYWORD2
+choose_value	KEYWORD2
+add_char	KEYWORD2
+clear8x16	KEYWORD2
+str_array	KEYWORD2
+write_str	KEYWORD2
+write_location	KEYWORD2
+Counter	KEYWORD2
+
+###########################################
+# Constants (LITERAL1)
+###########################################
