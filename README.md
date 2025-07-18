@@ -23,7 +23,7 @@ Connect the LED matrix to the Arduino as follows:
 
 1. Clone this repository to your local machine using:
 
-    https://github.com/your-username/Led-Matrix-8x16.git
+    https://github.com/FattahzadaNihad/Led-Matrix-8x16.git
 
 1. Open the Led-Matrix-8x16.ino file in the Arduino IDE.
 1. Connect your Arduino Uno to your computer.
@@ -101,5 +101,5 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 Special thanks to the Keyestudio team for their excellent hardware.
 
-Feel free to update the placeholders (e.g., https://github.com/your-username/Led-Matrix-8x16.git) with the appropriate URLs and add any additional sections as needed.
+Feel free to update the placeholders (e.g., https://github.com/FattahzadaNihad/Led-Matrix-8x16.git) with the appropriate URLs and add any additional sections as needed.
 
